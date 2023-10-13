@@ -47,7 +47,71 @@ pre {
     background-color: burlywood;
     border-radius: 3%;
 }
-img {
+.header {
+    text-align: right;
+}
+.container {
+    background-color:coral;
+}
+.block {
     width: 200px;
-    height: 250px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+}
+.image2 {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.container-2 {
+    background-color: coral;
+    display: flex; 
+    align-items: center;
+}
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+}
+.container-3 {
+    background-color: coral;
+    border: 5px solid aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.block-3 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.block-4 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+.fixced {
+    background-color: brown;
+    color: aliceblue;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.relative {
+    background-color: blueviolet;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+.relative-2 {
+    background-color: red;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
 }
