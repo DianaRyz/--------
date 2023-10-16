@@ -1,0 +1,38 @@
+body {
+    background-color:blanchedalmond;
+}
+.header {
+    text-align: right;
+}
+caption {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+table, th, td {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+th {
+    background-color: gainsboro;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+}
+.one {
+    background-color:aqua;
+}
+.two {
+    background-color: burlywood;
+}
+.three {
+    background-color: chartreuse;
+}
+.four {
+    background-color: cornflowerblue;
+}
+.five {
+    background-color: deeppink;
+}
